@@ -137,3 +137,13 @@ footer {
 .advantages-carousel-arrow-right {
   right: 0;
 }
+.advantages-carousel {
+  /* existing styles */
+  /* ... */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+
+.advantages-carousel::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit browsers */
+}
